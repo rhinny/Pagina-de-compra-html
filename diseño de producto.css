@@ -1,4 +1,4 @@
-/* Estilo global */
+/* base */
 body {
     font-family: Arial, sans-serif;
     background-color: #56789e;
@@ -22,12 +22,12 @@ body {
     transition: box-shadow 0.3s ease;
 }
 
-/* Efecto hover para darle profundidad al contenedor */
+/* Efecto hover */
 .product-container:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo del título del producto */
+/* Estilo del título */
 .product-title {
     font-size: 24px;
     color: #141c72;
@@ -73,7 +73,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Estilos responsivos para pantallas pequeñas */
+/* Estilos para celu */
 @media (max-width: 500px) {
     body {
         padding: 10px;
