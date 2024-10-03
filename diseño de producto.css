@@ -1,0 +1,101 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #56789e;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor del producto */
+.product-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto hover para darle profundidad al contenedor */
+.product-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del título del producto */
+.product-title {
+    font-size: 24px;
+    color: #141c72;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Subtítulo del producto */
+.product-subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* Descripción del producto */
+.product-description {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Precio del producto */
+.product-price {
+    font-size: 20px;
+    color: #56789e;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Imagen del producto */
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover en la imagen del producto */
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    .product-container {
+        padding: 15px;
+    }
+
+    .product-title {
+        font-size: 22px;
+    }
+
+    .product-subtitle {
+        font-size: 16px;
+    }
+
+    .product-description {
+        font-size: 15px;
+    }
+
+    .product-price {
+        font-size: 18px;
+    }
+}
