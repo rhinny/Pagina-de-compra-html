@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lista de productos.css">
+    <title>Mr. Igor Cookies</title>
+    <style>
+        /* Reset de márgenes y paddings predeterminados */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #031229;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #56789e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Contenedor principal de los productos */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Estilos individuales para cada producto */
+        .product {
+            background-color: #b4bbc5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        /* Hover para hacer zoom en el producto */
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        /* Imagen del producto */
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        /* Título del producto */
+        .product h2 {
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+
+        /* Descripción del producto */
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Precio del producto */
+        .product .price {
+            font-size: 18px;
+            color: #636363;
+            margin: 10px 0;
+        }
+
+        /* Botón de compra */
+        .buy-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #56789e;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        /* Hover en el botón de compra */
+        .buy-btn:hover {
+            background-color: #0fa08b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mr.Igor Cookies</h1>
+</header>
+
+<div class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 1">
+        <h2>Producto 1</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 1.html" class="buy-btn">Comprar</a>
+    </div>
+    
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 2">
+        <h2>Producto 2</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 2.html" class="buy-btn">Comprar</a>
+
+    </div>
+    
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 3">
+        <h2>Producto 3</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 3.html" class="buy-btn">Comprar</a>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 4">
+        <h2>Producto 4</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 4.html" class="buy-btn">Comprar</a>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 5">
+        <h2>Producto 5</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 5.html" class="buy-btn">Comprar</a>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/600x500" alt="Producto 6">
+        <h2>Producto 6</h2>
+        <p>Descripción breve del producto</p>
+        <p class="price">$00</p>
+        <a href="producto 6.html" class="buy-btn">Comprar</a>
+    </div>
+</div>
+
+</body>
+</html>
